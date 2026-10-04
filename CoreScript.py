@@ -9,10 +9,6 @@ import urllib.error
 import urllib.parse
 import os
 
-import os
-
-import os
-
 # --- AUTO-LOAD .ENV FILE (WITH OVERWRITE) ---
 env_path = os.path.join(os.path.dirname(__file__), '.env')
 if os.path.exists(env_path):
