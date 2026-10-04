@@ -1,0 +1,6 @@
+# Ignore local network logs
+network_activity_log.json
+
+# Ignore local environment credentials
+.env
+__pycache__/
